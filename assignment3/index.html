@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Products</h1>
+        <div class="product-gallery">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="./1.jfif" alt="Product 1">
+                <p>Product 1 - $100</p>
+                <button class="addToCartBtn" data-product-name="Product 1" data-product-price="100">Add to Cart</button>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="./2.jfif" alt="Product 2">
+                <p>Product 2 - $200</p>
+                <button class="addToCartBtn" data-product-name="Product 2" data-product-price="200">Add to Cart</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-item">
+                <img src="./3.jfif" alt="Product 3">
+                <p>Product 3 - $150</p>
+                <button class="addToCartBtn" data-product-name="Product 3" data-product-price="150">Add to Cart</button>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-item">
+                <img src="./4.jfif" alt="Product 4">
+                <p>Product 4 - $250</p>
+                <button class="addToCartBtn" data-product-name="Product 4" data-product-price="250">Add to Cart</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-item">
+                <img src="./5.jfif" alt="Product 5">
+                <p>Product 5 - $300</p>
+                <button class="addToCartBtn" data-product-name="Product 5" data-product-price="300">Add to Cart</button>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-item">
+                <img src="./6.jfif" alt="Product 6">
+                <p>Product 6 - $120</p>
+                <button class="addToCartBtn" data-product-name="Product 6" data-product-price="120">Add to Cart</button>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-item">
+                <img src="./7.jfif" alt="Product 7">
+                <p>Product 7 - $350</p>
+                <button class="addToCartBtn" data-product-name="Product 7" data-product-price="350">Add to Cart</button>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-item">
+                <img src="./8.jfif" alt="Product 8">
+                <p>Product 8 - $400</p>
+                <button class="addToCartBtn" data-product-name="Product 8" data-product-price="400">Add to Cart</button>
+            </div>
+        </div>
+        
+        <!-- Cart Section -->
+        <div class="cart">
+            <h2>Your Cart</h2>
+            <ul id="cartItems"></ul>
+            <p>Total: $<span id="totalPrice">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

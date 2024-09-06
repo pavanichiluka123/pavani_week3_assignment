@@ -1,0 +1,139 @@
+/* Styling for Product Grid and Cart */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.product-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.product-item {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    transition: transform 0.2s;
+}
+
+.product-item img:hover {
+    transform: scale(1.2); /* Zoom-in functionality */
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Adjust button layout and spacing */
+li div {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between elements */
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Spacing between increment and decrement buttons */
+}
+
+.quantity-controls button {
+    background-color: #007bff;
+    padding: 5px;
+    margin: 0;
+}
+
+.quantity-controls button:hover {
+    background-color: #0056b3;
+}
+
+li button {
+    margin-left: 10px; /* Space between the Remove button and quantity controls */
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+
+button:hover {
+    background-color: #218838;
+}
+
+.cart {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+/* Adjust button layout and spacing */
+li {
+    display: flex;
+    justify-content: space-between; /* Spread the product info and remove button */
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li div {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between increment/decrement buttons */
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Spacing between increment and decrement buttons */
+}
+
+li button {
+    margin-left: auto; /* Move the Remove button to the right side */
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
